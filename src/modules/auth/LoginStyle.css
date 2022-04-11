@@ -1,0 +1,110 @@
+.loginMain {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background-color: #1b2635;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.loginScreen {
+  width: 300px;
+  height: auto;
+  /* border: 1px solid black; */
+  background-color: #233044;
+  border-radius: 10px;
+  box-shadow: -3px -1px 40px -23px rgba(0, 0, 0, 0.87);
+  -webkit-box-shadow: -3px -1px 40px -23px rgba(0, 0, 0, 0.87);
+  -moz-box-shadow: -3px -1px 40px -23px rgba(0, 0, 0, 0.87);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.loginTitle{
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.imgDivlogin {
+  padding-top: 10px !important;
+}
+.logoImagelogin {
+  width: 80% !important;
+  display: block !important;
+  height: auto !important;
+  margin-left: 3%;
+}
+.imgDiv2login {
+  margin-top: 30px !important;
+  /* padding-bottom: 10px  !important; */
+}
+.logoImage2login {
+  max-width: 100px !important;
+  display: block !important;
+  height: 100px !important;
+  top: 1%;
+  left: 39%;
+}
+.loginButton {
+  width: 94% !important;
+  color: white !important;
+  background-color: #29ab87 !important;
+  margin-top: 10px !important;
+  margin-bottom: 30px !important;
+  border-radius: 5px !important;
+  font-family: Calibari, Arial !important;
+}
+.loginButtonLoader {
+  width: 94% !important;
+  /* color: white !important; */
+  /* background-color: #29ab87 !important; */
+  margin-top: 10% !important;
+  margin-bottom: 30px !important;
+  /* border-radius: 5px !important; */
+  /* font-family: Calibari, Arial !important; */
+}
+.loginForgotPass{
+  color: #ffffff;
+  padding-left: 35% !important;
+  font-family: Calibari, Arial !important;
+  font-size: 15px;
+  
+}
+
+
+@media screen and (max-width: 330px) {
+
+  .loginScreen {
+    width: 250px;
+    height: auto;
+    /* border: 1px solid black; */
+    background-color: #233044;
+    border-radius: 10px;
+    box-shadow: -3px -1px 40px -23px rgba(0, 0, 0, 0.87);
+    -webkit-box-shadow: -3px -1px 40px -23px rgba(0, 0, 0, 0.87);
+    -moz-box-shadow: -3px -1px 40px -23px rgba(0, 0, 0, 0.87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .hl{
+    
+    width: 90% !important;
+  }
+  .loginForgotPass{
+    padding-left: 26% !important;
+    
+    
+  }
+  .loginInp{
+    width: 90% !important;
+  }
+}

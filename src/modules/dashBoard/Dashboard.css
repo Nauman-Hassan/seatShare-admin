@@ -1,0 +1,98 @@
+.dashboardcolor {
+    width: 100% !important;
+    height: 90%;
+    /* margin-top: 20px !important; */
+    background-color: white;
+    margin-bottom: 50px;
+  }
+  .sub-card-admin {
+    background-color: var(--light-color) !important;
+    width: 100%;
+    box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+  }
+  .sub-card-student {
+    background-color: #1b2635 !important;
+    width: 100%;
+    -webkit-animation: shadow-drop-2-center 0.4s
+      cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+  }
+  .three-type-color {
+    color: black !important;
+  }
+  .three-white-type-color {
+    color: #ffffff !important;
+  }
+  .sub-card-teacher {
+    background-color: var(--light-color) !important ;
+    width: 100%;
+    box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+  }
+  .sub-card-courses {
+    background-color: var(--tableColor) !important;
+    width: 100%;
+    box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+  }
+  .sub-card-success-stories {
+    background-color: var(--light-color) !important;
+    width: 100%;
+    box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+  }
+  .sub-card-pending-success-stories {
+    background-color: var(--tableColor) !important;
+    top: 3%;
+    width: 100%;
+    box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 12px -8px rgba(0, 0, 0, 0.75);
+  }
+  .Typo-Admin {
+    padding-top: 20px;
+  }
+  .Typo-welcome {
+    color: rgb(18, 19, 19);
+  }
+  .loading {
+    padding: 13px !important;
+  }
+  
+  .cardLink {
+    text-decoration: none;
+  }
+  .cardImg {
+    float: right;
+    padding: 10px;
+    font-size: 70px !important;
+    color: #29ab87;
+  }
+  .zoom {
+    transition: transform 0.2s !important;
+  }
+  .zoom:hover {
+    transform: scale(1.1) !important;
+  }
+  .adminsName {
+    font-weight: 700;
+    font-size: 20px !important;
+    word-spacing: 2px !important;
+  }
+  .main-card {
+    /* margin-left: 40px !important; */
+    box-sizing: border-box !important;
+    padding-top: 0 !important;
+    padding: 20px;
+  }
+  
+
+

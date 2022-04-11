@@ -1,0 +1,13 @@
+.homeLogo{
+    /* background-color: red; */
+    width: 70%;
+    margin-right: 20%;
+}
+.homeAppBar{
+    background-color: #29ab87 !important;
+    
+}
+.sideIconText{
+    color: #29ab87 !important;
+    font-weight: bold !important;
+}

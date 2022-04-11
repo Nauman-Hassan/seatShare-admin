@@ -1,0 +1,26 @@
+.adminMain{
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+  
+}
+.adminTableHeading{
+    background-color: #29ab87!important;
+    color: white !important;
+}
+.txtCap{
+    text-transform: capitalize;
+    
+    
+}
+.toActive1{
+    font-size: 25px;
+    color: #29ab87;
+    margin-left: -5px;
+    cursor: pointer;
+}
+.toActive{
+    font-size: 25px;
+    color: #29ab87;
+    margin-left: 10px;
+    cursor: pointer;
+}
